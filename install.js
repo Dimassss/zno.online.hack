@@ -1,4 +1,4 @@
-const install_url = 'https://raw.githubusercontent.com/Dimassss/zno.online.hack/main/index.js'
+const install_url = 'https://raw.githubusercontent.com/Dimassss/zno.online.hack/test/index.js'
 document.body.insertAdjacentHTML('afterend', "<script id='hack_script'></script>")
 fetch(install_url)
 .then(data => data.text())
